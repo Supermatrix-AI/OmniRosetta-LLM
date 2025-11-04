@@ -1,0 +1,9 @@
+{
+  "agents":[
+    {"name":"RosettaAgent","goal":"Decode and forecast ancient scripts"},
+    {"name":"ForecastAgent","goal":"Predict geopolitical, economic, and tech trends"},
+    {"name":"TranslatorAgent","goal":"Multilingual & symbolic translation"},
+    {"name":"ArchitectAgent","goal":"Generate system designs and blueprints"},
+    {"name":"MathAgent","goal":"Solve logic and quantitative problems"}
+  ]
+}
