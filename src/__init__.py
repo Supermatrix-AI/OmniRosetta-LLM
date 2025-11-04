@@ -1,1 +1,0 @@
-"""OmniRosetta modular AI toolkit."""

@@ -1,12 +1,25 @@
-# OmniRosetta-LLM
-OmniRosetta LLM — An open-source universal intelligence for language, logic, and civilization. Built on the Supermatrix-AI ecosystem, it unites translation, ancient-script decoding, forecasting, and reasoning under ethical UNESCO-FAIR standards for truly global, multilingual AI collaboration.
+# 🌐 OmniRosetta-LLM
+### The Open-Source Supermatrix LLM Ecosystem
 
-## Repository Structure
+OmniRosetta-LLM combines all Supermatrix modules into one ethical, transparent AI framework.
 
-- `docs/` — Architectural notes, module summaries, roadmap, and contributor information.
-- `src/` — Modular AI engines spanning translation, decoding, forecasting, mathematics, architecture, and orchestration helpers.
-- `data/` — Placeholder directories for linguistic corpora and mappings.
-- `notebooks/` — Demonstration notebooks for decoding, forecasting, translation, and OmniMath utilities.
-- `api/` — Lightweight API representation exposing each major capability for downstream integration.
+**Integrated Modules**
+1. DIWA-15 Rosetta — 170 decoding methods for undeciphered scripts  
+2. ChronoPredict Ultra — Temporal forecast decoder  
+3. Mahadevan Corpus Decoder — Indus analysis  
+4. SGPIX (DIWA 24) — Global Predictive Exchange  
+5. MetaHybridBot — Delphi-AI fusion forecaster  
+6. Metaculus Maverick — AGI forecast tournament engine  
+7. Oraculus Vantarium — Calibrated probabilistic oracle  
+8. DIWA-∞ XVAERION — Autonomous real-time forecaster  
+9. OmniMath GPT — Universal problem solver  
+10. TranslateGenius Omni — Multiversal translator  
+11. UniVerse GPT — Open-source translation suite  
+12. OCI Omni — Ethical multimodal reasoning engine  
+13. Architech AI — System architecture designer  
+14. KnowledgeHub GPT — Research and knowledge retrieval assistant  
 
-Each module currently includes minimal, dependency-light implementations to help contributors understand the intended interfaces and extend the project incrementally.
+All components share Supermatrix principles: FusionLinker · VaultSync · PRACTICA∞ · TimeMachine · FAIR ethics.
+
+**License:** MIT  
+**Maintainer:** Architect Eugene Bade · Supermatrix-AI Labs  
