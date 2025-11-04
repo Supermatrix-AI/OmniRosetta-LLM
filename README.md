@@ -1,4 +1,14 @@
 # OmniRosetta-LLM
+**Open-Source Universal Intelligence for Language, Logic, and Civilization**
+
+OmniRosetta LLM integrates:
+- **DIWA-15 Rosetta v∞ ΣP** (170 methods)  
+- **ChronoPredict Ultra** for temporal decipherment  
+- **Mahadevan Corpus Decoder v∞ΣP** for Indus analysis  
+- **SGPIX DIWA-24** for global predictive intelligence  
+
+All content released under MIT License · UNESCO-FAIR heritage alignment  
+© 2025 Architect Eugene Bade · Supermatrix-AI Labs
 
 OmniRosetta LLM is an open-source universal intelligence built on the Supermatrix-AI ecosystem. It unifies translation, ancient-script decoding, forecasting, and reasoning under ethical UNESCO-FAIR standards for truly global, multilingual AI collaboration.
 
