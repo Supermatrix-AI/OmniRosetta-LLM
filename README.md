@@ -10,3 +10,9 @@ OmniRosetta LLM — An open-source universal intelligence for language, logic, a
 - `api/` — Lightweight API representation exposing each major capability for downstream integration.
 
 Each module currently includes minimal, dependency-light implementations to help contributors understand the intended interfaces and extend the project incrementally.
+
+## Documentation
+
+- [Systems Architecture Diagram](docs/architecture.md) — Mermaid visualization of module interactions and data flows.
+- [Architecture Overview](docs/architecture_overview.md) — Narrative description of the framework's guiding principles.
+- [Modules Summary](docs/modules_summary.md) — Bullet reference for each subsystem's responsibilities.
