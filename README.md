@@ -11,8 +11,18 @@ OmniRosetta LLM operates as the **open-source sibling** of the Supermatrix-AI pr
 
 ---
 
+### 🤝 Join the Collaboration
+We welcome contributors from every discipline to help advance OmniRosetta-LLM:
+
+- 👩‍💻 **Developers**, 🧠 **Linguists**, and 🧬 **AI Researchers** are invited to build tooling, extend models, and document discoveries.
+- 📮 Reach out via **genebads@gmail.com** for coordination or partnership discussions.
+- 🌍 Learn more about the vision at [supermatrix-ai.biz](https://supermatrix-ai.biz).
+- 🔄 Submit improvements as GitHub pull requests through the [OmniRosetta-LLM repository](https://github.com/Supermatrix-AI/OmniRosetta-LLM).
+
+---
+
 ### 🛡️ License
-This project is released under the **MIT License** — use, modify, and build upon it freely with attribution.  
+This project is released under the **MIT License** — use, modify, and build upon it freely with attribution.
 © 2025 Architect Eugene Bade · Supermatrix-AI Consortium
 
 ---
