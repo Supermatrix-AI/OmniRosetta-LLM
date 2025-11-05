@@ -91,7 +91,7 @@ OmniRosetta-LLM combines all Supermatrix modules into one ethical, transparent A
 7. Oraculus Vantarium — Calibrated probabilistic oracle  
 8. DIWA-∞ XVAERION — Autonomous real-time forecaster  
 9. OmniMath GPT — Universal problem solver  
-10. TranslateGenius Omni — Multiversal translator  
+10. TranslateGenius Omni — Multiversal translator (now ships with a lightweight CLI and traceable translation memory)
 11. UniVerse GPT — Open-source translation suite  
 12. OCI Omni — Ethical multimodal reasoning engine  
 13. Architech AI — System architecture designer  
@@ -101,7 +101,17 @@ All components share Supermatrix principles: FusionLinker · VaultSync · PRACTI
 
 **License:** MIT  
 **Maintainer:** Architect Eugene Bade · Supermatrix-AI Labs  
-Each module currently includes minimal, dependency-light implementations to help contributors understand the intended interfaces and extend the project incrementally.
+Each module currently includes minimal, dependency-light implementations to help contributors understand the intended interfaces and extend the project incrementally.  TranslateGenius Omni now exposes a richer translation memory core, provenance metadata, and a CLI entry point so contributors can experiment with multilingual decoding flows without additional setup.
+
+### TranslateGenius Omni Quickstart
+
+Run the translator directly from the module namespace:
+
+```bash
+python -m omnirosetta.modules.translategenius_omni.cli "Hello friend" --target es --pretty
+```
+
+The command returns a JSON payload containing the translated text, detected source language, confidence score, and per-segment traces so that downstream agents can audit the translation path.
 
 ## Documentation
 
