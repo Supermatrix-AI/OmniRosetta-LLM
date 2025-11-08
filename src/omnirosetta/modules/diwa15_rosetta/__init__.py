@@ -1,5 +1,7 @@
 """DIWA-15 Rosetta module for ethical AI decipherment."""
 
+# OCI patch: placeholder annotation to indicate OCI-specific integration points.
+
 from dataclasses import dataclass
 from typing import Dict, Any
 
