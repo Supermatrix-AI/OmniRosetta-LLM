@@ -104,7 +104,7 @@ graph TD
 * **OCI Omni** – Provides ethical, multimodal reasoning and dialogue that supervises sensitive operations.
 
 ### Translation Suite
-* **TranslateGenius Omni** – Handles multilingual and symbolic translation with cultural grounding.
+* **TranslateGenius Omni** – Provides deterministic translation with auto-detection, glossary control, and CLI orchestration hooks.
 * **UniVerse GPT** – Offers open-source translation pipelines emphasizing privacy and transparency.
 
 ### Architecture & Knowledge
