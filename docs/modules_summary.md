@@ -6,7 +6,7 @@
 | Chrono Predict Ultra | Forecasting ensembles combining temporal models and scenario reasoning. |
 | Mahadevan Decoder | Heuristic-driven deciphering utilities inspired by epigraphic research. |
 | Forecast Engines | Collection of specialized predictors, including Metaculus derivatives and hybrid bots. |
-| Omni Translation | Neural translation stack for multilingual and cross-script conversion. |
+| Omni Translation | Deterministic glossary-aware translator with auto-detection, batch helpers and CLI tooling. |
 | Architecture AI | Generative architecture and urban design assistant components. |
 | OmniMath | Symbolic and numeric reasoning engines for STEM problem solving. |
 | SgPix Diwa24 | Vision-language bridge for glyph analysis. |
