@@ -23,6 +23,11 @@ dev = [
     "black",
     "isort",
     "mypy",
+    "pytest",
+]
+
+test = [
+    "pytest",
 ]
 
 [tool.setuptools]

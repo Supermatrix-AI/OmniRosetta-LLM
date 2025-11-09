@@ -1,3 +1,5 @@
+[![CI](https://github.com/Supermatrix-AI/OmniRosetta-LLM/actions/workflows/oci_ci.yml/badge.svg)](https://github.com/Supermatrix-AI/OmniRosetta-LLM/actions)
+
 # OmniRosetta-LLM
 
 OmniRosetta LLM — An open-source universal intelligence for language, logic, and civilization. Built on the Supermatrix-AI ecosystem, it unites translation, ancient-script decoding, forecasting, and reasoning under ethical UNESCO-FAIR standards for truly global, multilingual AI collaboration.
@@ -9,8 +11,18 @@ OmniRosetta LLM operates as the **open-source sibling** of the Supermatrix-AI pr
 
 ---
 
+### 🤝 Join the Collaboration
+We welcome contributors from every discipline to help advance OmniRosetta-LLM:
+
+- 👩‍💻 **Developers**, 🧠 **Linguists**, and 🧬 **AI Researchers** are invited to build tooling, extend models, and document discoveries.
+- 📮 Reach out via **genebads@gmail.com** for coordination or partnership discussions.
+- 🌍 Learn more about the vision at [supermatrix-ai.biz](https://supermatrix-ai.biz).
+- 🔄 Submit improvements as GitHub pull requests through the [OmniRosetta-LLM repository](https://github.com/Supermatrix-AI/OmniRosetta-LLM).
+
+---
+
 ### 🛡️ License
-This project is released under the **MIT License** — use, modify, and build upon it freely with attribution.  
+This project is released under the **MIT License** — use, modify, and build upon it freely with attribution.
 © 2025 Architect Eugene Bade · Supermatrix-AI Consortium
 
 ---
@@ -76,6 +88,33 @@ OmniRosetta LLM is an open-source universal intelligence built on the Supermatri
 - **MetaHybridBot / Oraculus / Metaculus Maverick** — Forecasting agents
 
 Each module currently provides a Python stub that documents its interface and expected behavior. Implementations can extend these classes with production-ready models while preserving the shared governance and interoperability contracts.
+
+## TranslateGenius Omni Quickstart
+
+TranslateGenius Omni now ships with a deterministic, dependency-light translation engine optimised for testing and orchestration demos.  It supports language auto-detection, glossary overrides, batch translation and a JSON-friendly response payload so downstream agents can reason over provenance data.
+
+### Command line
+
+```bash
+pip install -e .  # once per environment to expose the omnirosetta package
+python -m omnirosetta.cli translate "hello" --target es --format text
+```
+
+The command above auto-detects the source language and prints the translated text.  Add `--format json` (default) to receive the full structured payload or pass multiple `--glossary` overrides (e.g. `--glossary bonjour=salut`) to enforce preferred terminology.  When experimenting without installation, prefix commands with `PYTHONPATH=src` to point Python at the local sources.
+
+### Python API
+
+```python
+from omnirosetta.modules.translategenius_omni import TranslateGeniusOmni, TranslationRequest
+
+translator = TranslateGeniusOmni(glossary={"bonjour": "salut"})
+response = translator.translate(
+    TranslationRequest(source_language="en", target_language="fr", content="hello")
+)
+print(response.translated_content)  # -> "salut"
+```
+
+The response object includes `notes` and `confidence` fields that can be logged or forwarded to other OmniRosetta agents.
 # 🌐 OmniRosetta-LLM
 ### The Open-Source Supermatrix LLM Ecosystem
 
@@ -108,3 +147,4 @@ Each module currently includes minimal, dependency-light implementations to help
 - [Systems Architecture Diagram](docs/architecture.md) — Mermaid visualization of module interactions and data flows.
 - [Architecture Overview](docs/architecture_overview.md) — Narrative description of the framework's guiding principles.
 - [Modules Summary](docs/modules_summary.md) — Bullet reference for each subsystem's responsibilities.
+- [TranslateGenius Omni Test Plan](docs/modules_summary.md#modules-summary) — Links to the updated deterministic translation capabilities and glossary tooling.
