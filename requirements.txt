@@ -1,12 +1,15 @@
-torch
-transformers
+# Core runtime dependencies for OmniRosetta-LLM
 fastapi
 pandas
 numpy
 matplotlib
 scikit-learn
-neo4j
 openai
-spacy
-nltk
 requests
+
+# Optional heavy dependencies (install separately if needed for full model support)
+# torch
+# transformers
+# neo4j
+# spacy
+# nltk
